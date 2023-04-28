@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+}
+.barra {
+    background-color: rgba(5, 50, 139, 0.781);
+    height: 53px;   
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.barraL {
+    background-color: rgba(3, 54, 148, 0.651);
+    max-width: 150px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Instrument Serif', serif;
+}
+.fundo{
+    background: #FFA17F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;    
+}
+.alinhar{
+    display: flex;
+
+}
